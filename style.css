@@ -1,0 +1,61 @@
+<style>
+main.container-fluid {margin:0;padding:0;} 
+.nightmode {
+    background-color:#20B2AA; 
+
+}
+.daymode {
+    background-color: #DB7093;
+   
+    color:#DB7093; 
+   
+}
+.clocktext {
+    display:block;
+    margin:0;
+    padding:1px 0 0 0;
+    width:100%; 
+    text-align:center;
+    line-height:1.2;
+    white-space:nowrap;
+}
+#date {
+    font-size:1.3rem;
+    padding-top:15px;
+}
+#time {
+    font-size:5rem;
+    margin:1px 0 0 0;
+}
+#time span {
+    display:inline-block;
+    padding:0;
+    vertical-align: baseline;
+    text-align:left;
+    width: 2em;
+    margin:0 0 0 0.5em;
+    font-size:1.5rem;
+    line-height:1.5;
+    white-space:normal;
+}
+@media (min-width: 576px) {
+#date {font-size:2rem;}
+#time {font-size:8rem;}
+#time span {font-size:2rem;line-height: 2;}
+}
+@media (min-width: 768px) {
+#date {font-size:3rem;}
+#time {font-size:11rem;}
+#time span {font-size:3rem;line-height: 2;}
+}
+@media (min-width: 992px) {
+#date {font-size:4rem;}
+#time {font-size:13rem;}
+#time span {font-size:4rem;line-height: 2;}
+}
+@media (min-width: 1200px) {
+#date {font-size:4.5rem;}
+#time {font-size:18rem;}
+#time span {font-size:4.5rem;line-height: 2;}
+}
+</style>
